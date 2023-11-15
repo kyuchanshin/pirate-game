@@ -45,18 +45,18 @@
    1) all_sprites.update()
 
 10. Checking Collisions
-   1) hits = pygame.sprite.groupcollide(mobs, bullets, True, True)
-   2) for hit in hits:
+      1) hits = pygame.sprite.groupcollide(mobs, bullets, True, True)
+      2) for hit in hits:
 
 11. Drawing the Screen
-   1) screen.fill(BLACK)
-   2) screen.blit(background, background_rect)
-   3) all_sprites.draw(screen)
-   4) draw_text(screen, str(score), 50, WIDTH / 2, 10)
-   5) draw_shield_bar(screen, 5, 5, player.shield)
-   6) pygame.display.flip()
+      1) screen.fill(BLACK)
+      2) screen.blit(background, background_rect)
+      3) all_sprites.draw(screen)
+      4) draw_text(screen, str(score), 50, WIDTH / 2, 10)
+      5) draw_shield_bar(screen, 5, 5, player.shield)
+      6) pygame.display.flip()
 
 12. Quitting the Game
-   1) pygame.quit()
+      1) pygame.quit()
 
  
