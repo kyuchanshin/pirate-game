@@ -1,6 +1,6 @@
 # pirate-game
 1. Importing Libraries
-   * import pygame
-   * import random
-   * from os import path
+   1) import pygame
+   2) import random
+   3) from os import path
  
